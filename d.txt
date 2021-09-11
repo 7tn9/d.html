@@ -1,0 +1,1032 @@
+<html lang="ar"><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> ArabCrack </title>
+    <meta content="عرب كراك,تطبيقات ipa , برامج مدفوعه للايفون , تحميل سناب بلس , ابو نذير , عماد محمد" name="keywords">
+    <meta content="ArabCrack" name="Author">
+    <meta content="info@arab-crack.com" name="Email">
+    <meta content="global" name="distribution">
+    <meta content="5 days" name="revisit">
+    <meta content="5 days" name="revisit-after">
+    <meta content="document" name="resource-type">
+    <meta content="all" name="audience">
+    <meta content="general" name="rating">
+    <meta content="all" name="robots">
+    <meta content="index, follow" name="robots">
+    <meta content="ar" name="language">
+    <meta content="Saudi Arabia" name="country">
+    <meta content="(c) 2020" name="copyright">
+    <link rel="icon" type="image/ico" href="https://pbs.twimg.com/profile_images/1218975943890472961/x-TVgzh9_400x400.jpg">
+    <meta itemprop="description" content="نحن مستعدون أن نقوم بتحويل اي تطبيق مدفوع على الاب ستور الى تطبيق مجاني بالكامل يوجد لدينا تطبيقات بلس وملفات دايليب.">
+    <meta itemprop="image" content="https://pbs.twimg.com/profile_images/1218975943890472961/x-TVgzh9_400x400.jpg>">
+    <meta name="twitter:card" content="home">
+    <meta name="twitter:site" content="@ArabCrackTeam">
+    <meta name="twitter:title" content="ArabCrack">
+    <meta name="twitter:description" content="ArabCrackTeam">
+    <meta name="twitter:creator" content="@ArabCrackTeam">
+    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1218975943890472961/x-TVgzh9_400x400.jpg">
+    <meta property="og:title" content="ArabCrack">
+    <meta property="og:type" content="home">
+    <meta property="og:image" content="https://pbs.twimg.com/profile_images/1218975943890472961/x-TVgzh9_400x400.jpg">
+    <meta property="og:description" content="للتطبيقات المكركة والتطبيقات البلس.">
+    <meta property="og:site_name" content="ArabCrack">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="cdn-cgi/apps/head/9W2fYaSHrf-o0Vs3alS3-cqfXqo.js"></script>
+    <link rel="icon" type="image/png" href="https://pbs.twimg.com/profile_images/1218975943890472961/x-TVgzh9_400x400.jpg">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/droid-arabic-kufi" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&amp;display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://arab-crack.com/assets/css/app.css?time=1631333994">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    
+    <script data-ad-client="ca-pub-9211433834910345" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    
+    <script>
+            </script>
+    <style>
+            </style>
+    <script>
+       // var themeChangerRoute = "theme.html";
+
+    </script>
+    <script data-pagespeed-no-defer="">
+        (function() {
+            function f(a, b, d) {
+                if (a.addEventListener) a.addEventListener(b, d, !1);
+                else if (a.attachEvent) a.attachEvent("on" + b, d);
+                else {
+                    var c = a["on" + b];
+                    a["on" + b] = function() {
+                        d.call(this);
+                        c && c.call(this)
+                    }
+                }
+            };
+            window.pagespeed = window.pagespeed || {};
+            var g = window.pagespeed;
+
+            function k(a) {
+                this.g = [];
+                this.f = 0;
+                this.h = !1;
+                this.j = a;
+                this.i = null;
+                this.l = 0;
+                this.b = !1;
+                this.a = 0
+            }
+
+            function l(a, b) {
+                var d = b.getAttribute("data-pagespeed-lazy-position");
+                if (d) return parseInt(d, 0);
+                var d = b.offsetTop,
+                    c = b.offsetParent;
+                c && (d += l(a, c));
+                d = Math.max(d, 0);
+                b.setAttribute("data-pagespeed-lazy-position", d);
+                return d
+            }
+
+            function m(a, b) {
+                var d, c, e;
+                if (!a.b && (0 == b.offsetHeight || 0 == b.offsetWidth)) return !1;
+                a: if (b.currentStyle) c = b.currentStyle.position;
+                    else {
+                        if (document.defaultView && document.defaultView.getComputedStyle && (c = document.defaultView.getComputedStyle(b, null))) {
+                            c = c.getPropertyValue("position");
+                            break a
+                        }
+                        c = b.style && b.style.position ? b.style.position : ""
+                    }
+                if ("relative" == c) return !0;
+                e = 0;
+                "number" == typeof window.pageYOffset ? e = window.pageYOffset : document.body && document.body.scrollTop ? e = document.body.scrollTop : document.documentElement &&
+                    document.documentElement.scrollTop && (e = document.documentElement.scrollTop);
+                d = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+                c = e;
+                e += d;
+                var h = b.getBoundingClientRect();
+                h ? (e = h.top - d, c = h.bottom) : (h = l(a, b), d = h + b.offsetHeight, e = h - e, c = d - c);
+                return e <= a.f && 0 <= c + a.f
+            }
+            k.prototype.m = function(a) {
+                p(a);
+                var b = this;
+                window.setTimeout(function() {
+                    var d = a.getAttribute("data-pagespeed-lazy-src");
+                    if (d)
+                        if ((b.h || m(b, a)) && -1 != a.src.indexOf(b.j)) {
+                            var c = a.parentNode,
+                                e = a.nextSibling;
+                            c && c.removeChild(a);
+                            a.c && (a.getAttribute = a.c);
+                            a.removeAttribute("onload");
+                            a.tagName && "IMG" == a.tagName && g.CriticalImages && f(a, "load", function() {
+                                g.CriticalImages.checkImageForCriticality(this);
+                                b.b && (b.a--, b.a || g.CriticalImages.checkCriticalImages())
+                            });
+                            a.removeAttribute("data-pagespeed-lazy-src");
+                            a.removeAttribute("data-pagespeed-lazy-replaced-functions");
+                            c && c.insertBefore(a, e);
+                            if (c = a.getAttribute("data-pagespeed-lazy-srcset")) a.srcset = c, a.removeAttribute("data-pagespeed-lazy-srcset");
+                            a.src = d
+                        } else b.g.push(a)
+                }, 0)
+            };
+            k.prototype.loadIfVisibleAndMaybeBeacon = k.prototype.m;
+            k.prototype.s = function() {
+                this.h = !0;
+                q(this)
+            };
+            k.prototype.loadAllImages = k.prototype.s;
+
+            function q(a) {
+                var b = a.g,
+                    d = b.length;
+                a.g = [];
+                for (var c = 0; c < d; ++c) a.m(b[c])
+            }
+
+            function t(a, b) {
+                return a.a ? null != a.a(b) : null != a.getAttribute(b)
+            }
+            k.prototype.u = function() {
+                for (var a = document.getElementsByTagName("img"), b = 0, d; d = a[b]; b++) t(d, "data-pagespeed-lazy-src") && p(d)
+            };
+            k.prototype.overrideAttributeFunctions = k.prototype.u;
+
+            function p(a) {
+                t(a, "data-pagespeed-lazy-replaced-functions") || (a.c = a.getAttribute, a.getAttribute = function(a) {
+                    "src" == a.toLowerCase() && t(this, "data-pagespeed-lazy-src") && (a = "data-pagespeed-lazy-src");
+                    return this.c(a)
+                }, a.setAttribute("data-pagespeed-lazy-replaced-functions", "1"))
+            }
+            g.o = function(a, b) {
+                function d() {
+                    if (!(c.b && a || c.i)) {
+                        var b = 200;
+                        200 < (new Date).getTime() - c.l && (b = 0);
+                        c.i = window.setTimeout(function() {
+                            c.l = (new Date).getTime();
+                            q(c);
+                            c.i = null
+                        }, b)
+                    }
+                }
+                var c = new k(b);
+                g.lazyLoadImages = c;
+                f(window, "load", function() {
+                    c.b = !0;
+                    c.h = a;
+                    c.f = 200;
+                    if (g.CriticalImages) {
+                        for (var b = 0, d = document.getElementsByTagName("img"), r = 0, n; n = d[r]; r++) - 1 != n.src.indexOf(c.j) && t(n, "data-pagespeed-lazy-src") && b++;
+                        c.a = b;
+                        c.a || g.CriticalImages.checkCriticalImages()
+                    }
+                    q(c)
+                });
+                b.indexOf("data") && ((new Image).src = b);
+                f(window,
+                    "scroll", d);
+                f(window, "resize", d)
+            };
+            g.lazyLoadInit = g.o;
+        })();
+
+        pagespeed.lazyLoadInit(true, "pagespeed_static/1.JiBnMqyl6S.gif");
+
+    </script>
+<style>@charset "UTF-8";.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;overflow-y:hidden;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:static;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon::before{display:flex;align-items:center;font-size:2em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon::before{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{flex-basis:auto!important;width:auto;height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.8em;left:-.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:swal2-toast-show .5s;animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:swal2-toast-hide .1s forwards;animation:swal2-toast-hide .1s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-toast-animate-success-line-tip .75s;animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-toast-animate-success-line-long .75s;animation:swal2-toast-animate-success-line-long .75s}.swal2-container{display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:.625em;overflow-x:hidden;background-color:transparent;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;box-sizing:border-box;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border:none;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:flex;z-index:1;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;margin:1.25em auto 0}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-actions.swal2-loading .swal2-styled.swal2-confirm{box-sizing:border-box;width:2.5em;height:2.5em;margin:.46875em;padding:0;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{content:"";display:inline-block;width:15px;height:15px;margin-left:5px;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff}.swal2-styled{margin:.3125em;padding:.625em 2em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;z-index:2;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;transition:color .1s ease-out;border:none;border-radius:0;outline:initial;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{transform:none;background:0 0;color:#f27474}.swal2-content{z-index:1;justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:400;line-height:normal;text-align:center;word-wrap:break-word}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-file::-webkit-input-placeholder,.swal2-input::-webkit-input-placeholder,.swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::-ms-input-placeholder,.swal2-input::-ms-input-placeholder,.swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:inherit}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{align-items:center;justify-content:center;background:inherit;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{margin:0 .4em}.swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon::before{display:flex;align-items:center;height:92%;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-warning::before{content:"!"}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-info::before{content:"i"}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-question::before{content:"?"}.swal2-icon.swal2-question.swal2-arabic-question-mark::before{content:"؟"}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-progress-steps{align-items:center;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#3085d6}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;width:2.5em;height:.4em;margin:0 -1px;background:#3085d6}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}@-webkit-keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@-webkit-keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@-webkit-keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@-webkit-keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent}body.swal2-no-backdrop .swal2-shown>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static!important}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}</style><script async="" src="https://static.hotjar.com/c/hotjar-1484019.js?sv=6"></script><script async="" src="../cdn.iwmf.ir/js/people-votes/people-vote-4-2.js"></script><script async="" src="https://script.hotjar.com/modules.5fe2f4f38cf4833026a9.js" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head>
+
+<body class="rtl dark">
+    <div class="main">
+        <div class="bg_head"></div>
+        <div class="header fixed">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__right">
+                        <div class="header__menu-toggle"> <i class="fas fa-bars"></i> </div>
+                        <div class="header__menu">
+                            <ul>
+                                <li> <a href="https://arab-crack.com"><i style="margin-left: 7px;font-size: 20px;" class="fas fa-home"></i> الرئيسية </a> </li>
+                                
+                               
+                                <li> <a href="https://5zznly.com/wiGxM">القائمين على هذا الموقع</a> </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__logo"> <a href="https://arab-crack.com"> <img style="height: 50px;" title="ArabCrack" alt="ArabCrack" src="https://arab-crack.com/images/logo.png"> </a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu-responsive">
+            <div class="container">
+                <div class="header__menu-responsive-inner">
+                    <div class="header__menu-responsive-top">
+                        <div class="header__menu-responsive-close"> <i class="fas fa-times cc"></i> </div>
+                    </div>
+                    <div class="header__menu-responsive-list">
+                        <ul>
+                            <li> <a href="https://arab-crack.com"><i style="margin-left: 7px;font-size: 20px;" class="fas fa-home"></i> الرئيسية </a> </li>
+                            <li> <a href="#"> اقسام الموقع <i class="fa fa-plus"></i></a>
+                                <ul>
+                                    <li> <a href="https://arab-crack.com"> التطبيقات </a> </li>
+                                    <li> <a href="https://arab-crack.com/dyilbapp">دايلبات</a> </li>
+                                    <li> <a href="https://arab-crack.com/info"> استخراج معلومات التطبيقات </a> </li>
+                                </ul>
+                            </li>
+                            <li> <a href="https://arab-crack.com/dyilbapp">دايلبات</a> </li>
+                            <li> <a href="https://arab-crack.com/info"> استخراج معلومات التطبيقات </a> </li>
+                            <li> <a href="https://arab-crack.com/teammembers">القائمين على هذا الموقع</a> </li>
+                            <li> <a target="_blank" href="https://www.paypal.me/ArabCrack"> إدعمنا </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="main__content">
+    <div class="background__image"> <img id="background_image" class="dark" src="assets/images/dark.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="home"> عرب كراك </h1>
+            <div class="search  home ">
+                <div class="search__form">       
+                   
+                    <form class="searchform" id="searchForm" action="search" method="get" onsubmit="return IsEmptyField();"> 
+                    <input id="transcript" class="search__input" name="q" type="text" placeholder="ابحث الان في الموقع"> 
+                   <!-- <button type="submit"> <i class="softmac softmac-search softmac-gray"></i> </button> -->
+                    <span onclick="startDictation()" class="microphone-icon"> </span> 
+                    </form>
+                    
+                </div>
+            </div>
+
+            <div class="slider">
+                <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-rtl" id="slider">
+                    <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                        <div class="swiper-slide swiper-slide-active" style="width: 710px;">
+                            <div class="row gutters20">
+                                <div class="col-lg-4 col-md-6"> <a href="index" class="slider__item">
+                                        <div class="slider__item-overlay" style="background-image:linear-gradient(to bottom,#9C27B0,#E91E63)"></div>
+                                        <div class="slider__content">
+                                            <div class="slider__content-right"> </div>
+                                            <div class="slider__content-left">
+                                                <div class="slider__item-title"> احدث التطبيقات المدفوعة والمكركة لاصحاب المتاجر </div>
+                                                <div class="slider__item-description"> تحميل التطبيقات المدفوعة والمكركة بأحدث التحديثات بصيغة .IPA الان ومجانا ... وملفيات الدايلبات للمطورين وكل مايخص المطورين </div>
+                                            </div>
+                                        </div>
+                                    </a> <a href="application/%D9%85%D8%A4%D8%B0%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9" class="slider__item"> <img src="https://arab-crack.com/images/16047380742622972505fa65c1acb76a.jpg" alt="مؤذن السعودية">
+                                        <div class="slider__item-overlay" style="background-image:linear-gradient(to bottom,#53bc52,#009688)"></div>
+                                        <div class="slider__content">
+                                            <div class="slider__content-right">
+                                                <div class="slider__item-logo"> <img src="https://arab-crack.com/images/16047380742622972505fa65c1acb76a.jpg" alt=""> </div>
+                                            </div>
+                                            <div class="slider__content-left">
+                                                <div class="slider__item-title"> مؤذن السعودية </div>
+                                                <div class="slider__item-description"> حمل الان مؤذن السعودية أحدث الادوات وبأخر الاصدارات مجانا بصيغة .IPA </div>
+                                            </div>
+                                        </div>
+                                    </a> </div>
+                                <div class="col-lg-4 col-md-6"> <a href="application/YouTube-Cercube-5" class="slider__item"> <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_2_glyph_svg-512.png" alt="">
+                                        <div class="slider__item-overlay" style="background-image:linear-gradient(to bottom,#c31431,#151515)"></div>
+                                        <div class="slider__content">
+                                            <div class="slider__content-right">
+                                                <div class="slider__item-logo"> <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/395_Youtube_logo-512.png" alt=""> </div>
+                                            </div>
+                                            <div class="slider__content-left">
+                                                <div class="slider__item-title"> يوتيوب بلس </div>
+                                                <div class="slider__item-description"> حمل الان نسخ يوتيوب بلس بأحدث الادوات وبأخر الاصدارات مجانا بصيغة .IPA </div>
+                                            </div>
+                                        </div>
+                                    </a> <a href="application/InstaRocket" class="slider__item"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" alt="Php Storm">
+                                        <div class="slider__item-overlay" style="background-image:linear-gradient(to bottom,#ff1212,#ed26ed)"></div>
+                                        <div class="slider__content">
+                                            <div class="slider__content-right">
+                                                <div class="slider__item-logo"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" alt=""> </div>
+                                            </div>
+                                            <div class="slider__content-left">
+                                                <div class="slider__item-title"> انستقرام بلس </div>
+                                                <div class="slider__item-description"> حمل الان نسخ انستقرام بلس بأحدث الادوات وبأخر الاصدارات مجانا بصيغة .IPA </div>
+                                            </div>
+                                        </div>
+                                    </a> </div>
+                                <div class="col-lg-4"> <a href="application/Photo-Lab-Hack" class="slider__item slider__item--double-height"> <img src="images/160285106513393487305f8990f9c0b1e.jpg" alt="">
+                                        <div class="slider__item-overlay" style="background-image:linear-gradient(to bottom,#131537,#131537)"></div>
+                                        <div class="slider__content">
+                                            <div class="slider__content-right">
+                                                <div class="slider__item-logo"> <img src="images/160285106513393487305f8990f9c0b1e.jpg" alt=""> </div>
+                                            </div>
+                                            <div class="slider__content-left">
+                                                <div class="slider__item-title en"> Photo Lab Hack </div>
+                                                
+                                                <div class="app__item-rate" style="margin-top: -10px;margin-bottom: 14px;"> 
+                                                    <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="1">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="5" class="br-selected br-current"></a><div class="br-current-rating">1</div></div></div> 
+                                                </div>
+                                                
+                                                <div style="font-size: 1px;margin-bottom: 5px;color: #9E9E9E;" class="slider__item-title"> متوفر الان بأخر اصدار هو : <span class="en">3.10.24 </span></div>
+                                                
+                                                <div class="slider__item-description"> لإضافة تأثيرات على الصور وتحويلها إلى رسم حمله الان مجانا بصيغة .IPA</div>
+                                            </div>
+                                        </div>
+                                    </a> </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span></div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+            </div>
+
+                       <div class="section">
+                <div class="section__header">
+                    <div class="section__title"> <i class="softmac softmac-apps"></i>
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#newestApplicationsTab" aria-selected="false"> اخر التحديثات </a> </li>
+                        </ul>
+                    </div>
+                                        <div style="color: #999;font-size: 12px;" class="section__more"> اسحب لعرض المزيد </div>
+                                    </div>
+                <div class="section__content">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="newestApplicationsTab">
+                            <div class="swiper-container swiper-container-multirow swiper-container-initialized swiper-container-horizontal swiper-container-rtl" id="newestApplications">
+                                <div class="swiper-wrapper" style="width: 2100px; transform: translate3d(0px, 0px, 0px);">
+
+
+            
+                                    <div class="swiper-slide swiper-slide-active" style="width: 340px; margin-left: 10px;"> <a href="application/Filmr-Premium" class="app__item" title="Filmr Premium - v7.6.10 - تطبيق لمونتاج المقاطع مهكر">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/15783664862728109675e13f616c8c42.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">Filmr Premium</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide swiper-slide-next" style="width: 340px; margin-left: 10px;"> <a href="application/Photo-Lab-Hack" class="app__item" title="Photo Lab Hack - v3.10.51 - لإضافة تأثيرات على الصور وتحويلها إلى رسم">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/160285106513393487305f8990f9c0b1e.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">Photo Lab Hack</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide" style="width: 340px; margin-left: 10px;"> <a href="application/Focos" class="app__item" title="Focos - v2.4.5 - للتصوير وتعديل الصور مفتوح المميزات">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/16038368812061388065f989bd18f263.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">Focos</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide" style="width: 340px; margin-left: 10px;"> <a href="application/InShot-Pro" class="app__item" title="InShot Pro - v1.53.1 - تطبيق لمونتاج الفيديو مفتوح المزايا">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/161298031411240225226024205a3fefb.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">InShot Pro</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide" style="width: 340px; margin-left: 10px;"> <a href="application/ProCamera" class="app__item" title="ProCamera - v14.4 - تطبيق تصوير للمحترفين">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/158401396613887017275e6a228e72f82.jpeg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">ProCamera</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide" style="width: 340px; margin-left: 10px;"> <a href="application/Lensa-Hack" class="app__item" title="Lensa Hack - v3.6.1 - تطبيق مميز للتعديل على الصور والتحكم بالعزل بها">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/1612980211194939038260241ff3248c8.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">Lensa Hack</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide" style="width: 340px; margin-top: 10px; margin-left: 10px;"> <a href="application/VCUS-premium" class="app__item" title="VCUS premium - v2.0.40 - تصميم المقاطع بإخراج احترافي">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/157879517410418090875e1a80a62370d.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">VCUS premium</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide" style="width: 340px; margin-top: 10px; margin-left: 10px;"> <a href="application/HYPERSPEKTIV" class="app__item" title="HYPERSPEKTIV - v2.5.25 - فلاتر تصوير رائعة">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/1624625779684268460d5d273d17d1.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">HYPERSPEKTIV</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide" style="width: 340px; margin-top: 10px; margin-left: 10px;"> <a href="application/MovieBoxPro" class="app__item" title="MovieBoxPro - v9.4 - افلام ومسلسلات بدون اعلانات  ( مو VIP )">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/160232495120006365455f8189d76ddbe.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">MovieBoxPro</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide" style="width: 340px; margin-top: 10px; margin-left: 10px;"> <a href="application/مؤذن-السعودية" class="app__item" title="مؤذن السعودية - v3.8.5 - مواقيت الأذان والإقامة (مدفوع)">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/16047380742622972505fa65c1acb76a.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">مؤذن السعودية</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide" style="width: 340px; margin-top: 10px; margin-left: 10px;"> <a href="application/PicsArt-hack" class="app__item" title="PicsArt hack - v17.7.7 - تطبيق تعديل الصور الغني عن التعريف (مهكر)">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/1613962595162093263860331d6389881.jpg" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">PicsArt hack</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                    
+                                    <div class="swiper-slide" style="width: 340px; margin-top: 10px; margin-left: 10px;"> <a href="application/MineCraft" class="app__item" title="MineCraft - v1.17.10 - لعبة مكعبات">
+                                            <div class="app__item-logo"> <img width="105" height="105" alt="" src="images/15840135623861054345e6a20fa1c55e.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"> </div>
+                                            <div class="app__item-left">
+                                                <div class="app__item-title en">MineCraft</div>
+                                                <div class="app__item-rate"> 
+                                                       <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                        <option value="1">1</option>
+                                                        <option value="1">2</option>
+                                                        <option value="1">3</option>
+                                                        <option value="1">4</option>
+                                                        <option value="5">5</option>
+                                                    </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                <div class="app__item-version">منذ شهر</div>
+                                            </div>
+                                        </a> </div>
+
+                                                                                                        </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="section" style="margin-bottom: 20px;">
+                <div class="section__header">
+                    <div class="section__title"> <i class="softmac softmac-apps"></i>
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#newestApplicationsTab" aria-selected="false"> جميع التطبيقات </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section__content">
+                    <div class="list__items">
+                        <div class="row gutters20">
+                           
+                           
+                           
+            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/Movies4Up" class="app__item" title="Movies4Up - v1.1.4 - افلام ومسلسلات محذوف من ابستور">
+                                  <span><i class="fas fa-thumbtack"></i></span>
+                                   <snap class="star"> مميز </snap>
+                                    <div class="app__item-logo"> <img src="images/162049471112986527566096c97765b02.jpg" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="Movies4Up"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">Movies4Up</div>
+                                        <div class="app__item-rate"> 
+                                            <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="1">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="5" class="br-selected br-current"></a><div class="br-current-rating">1</div></div></div> 
+                                        </div>
+                                                                                                                    </div>
+                                </a> </div>
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/Photo-Lab-Hack" class="app__item" title="Photo Lab Hack - v3.10.24 - لإضافة تأثيرات على الصور وتحويلها إلى رسم">
+                                  <span><i class="fas fa-thumbtack"></i></span>
+                                   <snap class="star"> مميز </snap>
+                                    <div class="app__item-logo"> <img src="images/160285106513393487305f8990f9c0b1e.jpg" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="Photo Lab Hack"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">Photo Lab Hack</div>
+                                        <div class="app__item-rate"> 
+                                            <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="1">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="5" class="br-selected br-current"></a><div class="br-current-rating">1</div></div></div> 
+                                        </div>
+                                                                                                                    </div>
+                                </a> </div>
+                                                                                    
+                            
+                                                        
+                              
+                           
+                           
+            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/TempoApp-Pro" class="app__item" title="TempoApp Pro - v3.8.8 - تطبيق للتعديل ع الفيديو مفتوح المزايا">
+                                    <div class="app__item-logo"> <img src="images/1627349608125934144560ff62685298b.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="TempoApp Pro"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">TempoApp Pro</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 3.8.8 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/Boom-Premium" class="app__item" title="Boom Premium - v2.6.1 - برنامج للتعديل ع الصوتيات مفتوح المزايا">
+                                    <div class="app__item-logo"> <img src="assets/images/placeholder.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="Boom Premium"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">Boom Premium</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 2.6.1 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/LudoStar-Hack" class="app__item" title="LudoStar Hack - v1.23 - هاك لودو ستار ( ارجاع مجاني )">
+                                    <div class="app__item-logo"> <img src="images/162719102092053273460fcf6ec67c00.jpeg" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="LudoStar Hack"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">LudoStar Hack</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 1.23 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/LastDayOnEarth-Hack" class="app__item" title="LastDayOnEarth Hack - v1.18.3 - لعبة سرفايفل ، التعديل اللي فيها هو عند استخدام الموارد تزداد بدل النقصان">
+                                    <div class="app__item-logo"> <img src="images/1627156285209116457560fc6f3d5e0be.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="LastDayOnEarth Hack"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">LastDayOnEarth Hack</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 1.18.3 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/GTA-LCS" class="app__item" title="GTA LCS - v1.14 - لعبة GTA  (مدفوعة ع الاب ستور )">
+                                    <div class="app__item-logo"> <img src="images/162715554232677399660fc6c56e2c46.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="GTA LCS"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">GTA LCS</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 1.14 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/Sky:-Children-Of-The-Light" class="app__item" title="Sky: Children Of The Light - v0.13.0 - لعبة جميلة ومسلية ( تستطيع الطيران دون اجنحة )">
+                                    <div class="app__item-logo"> <img src="images/1616625831325973669605bc0a7a3b42.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="Sky: Children Of The Light"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">Sky: Children Of The Light</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 0.13.5 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/LumaFX" class="app__item" title="LumaFX - v3.1.0 - لايوجد وصف">
+                                    <div class="app__item-logo"> <img src="images/16097673243358917835ff3199ce20a4.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="LumaFX"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">LumaFX</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 3.1.0 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/GTA-SA-Modified" class="app__item" title="GTA SA Modified - v1.0 - لعبة GTA الشهيرة ( مدفوعة بالاب ستور )">
+                                    <div class="app__item-logo"> <img src="images/16095892761994082175ff0621cbb4f5.jpg" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="GTA SA Modified"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">GTA SA Modified</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 2.02.11 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/CMDownYT" class="app__item" title="CMDownYT - v1.3 - تطبيق للتحميل من اليوتيوب">
+                                    <div class="app__item-logo"> <img src="images/160484498211445542035fa7fdb6b7538.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="CMDownYT"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">CMDownYT</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 1.3 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            
+                            
+                            
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/Tank-Stars" class="app__item" title="Tank Stars - v1.5.2 - لعبة قتال دبابات - مهكرة">
+                                    <div class="app__item-logo"> <img src="images/160484329821266966215fa7f7228eb84.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="Tank Stars"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">Tank Stars</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 1.5.2 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/Crazy-Kick" class="app__item" title="Crazy Kick - v1.7.11 - لعبة كورة - مهكرة">
+                                    <div class="app__item-logo"> <img src="images/16048427081129658185fa7f4d48b491.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="Crazy Kick"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">Crazy Kick</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 1.7.11 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/MovieBoxPro" class="app__item" title="MovieBoxPro - v7.6 - افلام ومسلسلات بدون اعلانات  ( مو VIP )">
+                                    <div class="app__item-logo"> <img src="images/160232495120006365455f8189d76ddbe.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="MovieBoxPro"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">MovieBoxPro</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 9.4 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            
+                            
+                            
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/Ac_BeinSports" class="app__item" title="Ac_BeinSports - v1.2 - تطبيق لمشاهدات قنوات BeinSports بدون اعلانات">
+                                    <div class="app__item-logo"> <img src="images/15999205708277565955f5cd9ba5f344.png" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="Ac_BeinSports"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">Ac_BeinSports</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 1.3 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/TikTok-Unicorn" class="app__item" title="TikTok Unicorn - v4.2 - TikTok ++ for Unicorn">
+                                    <div class="app__item-logo"> <img src="images/159524613811527814575f15863a837a4.jpg" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="TikTok Unicorn"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">TikTok Unicorn</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 18.0.0 </span></div>
+                                                                            </div>
+                                </a> </div>
+                            
+                            <div class="col-lg-4 col-md-6 list__item-wrapper"> <a href="application/Facebook-Wolf" class="app__item" title="Facebook Wolf - v1.4 - Facebook ++ for Wolf">
+                                    <div class="app__item-logo"> <img src="images/15952460454076597485f1585dd785e4.jpg" onerror="this.onerror=null; this.src='assets/images/placeholder.png'" width="105" height="105" alt="Facebook Wolf"> </div>
+                                    <div class="app__item-left">
+                                        <div class="app__item-title en">Facebook Wolf</div>
+                                        <div class="app__item-rate"> <div class="br-wrapper br-theme-fontawesome-stars"><select class="rate--read-only" name="rating" autocomplete="off" style="display: none;">
+                                                <option value="1">1</option>
+                                                <option value="1">2</option>
+                                                <option value="1">3</option>
+                                                <option value="1">4</option>
+                                                <option value="5">5</option>
+                                            </select><div class="br-widget br-readonly"><a href="#" data-rating-value="1" data-rating-text="1" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="2" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="3" class="br-selected br-current"></a><a href="#" data-rating-value="1" data-rating-text="4" class="br-selected br-current"></a><a href="#" data-rating-value="5" data-rating-text="5"></a><div class="br-current-rating">1</div></div></div> </div>
+                                                                                                                        <div class="app__item-version">نسخه : <span class="en"> 297.0 </span></div>
+                                                                            </div>
+                                </a> </div>
+                                                        <div class="col-md-12"><ul style="padding-right: 0px;" class="pagination pagination-small"><li class="disabled"><a href="#">الاولى</a></li><li class="active"><a href="#">1</a></li>     </ul></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+                        
+
+        </div>
+    </div>
+</div>
+
+<div class="to-top"> <a href="#" class="active"> <i class="fas fa-angle-up"></i> </a> </div>
+
+
+
+
+</div>
+<script type="text/javascript" data-pagespeed-no-defer="">
+    pagespeed.lazyLoadImages.overrideAttributeFunctions();
+
+</script>
+<script type="text/javascript" src="https://arab-crack.com/assets/js/app.js"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112523503-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-112523503-1');
+
+</script>
+<script>
+    (function(h, o, t, j, a, r) {
+        h.hj = h.hj || function() {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {
+            hjid: 1484019,
+            hjsv: 6
+        };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+
+</script>
+<script>
+    ! function(e, t, a) {
+        "use strict";
+        var s = t.head || t.getElementsByTagName("head")[0],
+            p = t.createElement("script");
+        e.iwmfBadge = a, p.async = true, p.src = "../cdn.iwmf.ir/js/people-votes/people-vote-4-2.js", s.appendChild(p)
+    }(window, document, "b-bottom-left");
+
+</script>
+<script></script>
+
+
+
+
+<!-- Speech Recognition API -->
+<script>
+   function startDictation() {
+
+    if (window.hasOwnProperty('webkitSpeechRecognition')) {
+        
+      var audio = new Audio('http://douniamp3.co/music/test2/نغمات%20موبايل/نغمات-رسائل-سامسونج/samsung flowers.mp3');
+
+      var recognition = new webkitSpeechRecognition();
+
+      recognition.continuous = false;
+      recognition.interimResults = false;
+
+      recognition.lang = "en-US";
+      recognition.start();
+      audio.play();
+
+      recognition.onresult = function(e) {
+        document.getElementById('transcript').value = e.results[0][0].transcript;
+        recognition.stop();
+        document.getElementById('searchForm').submit();
+      };
+
+      recognition.onerror = function(e) {
+        recognition.stop();
+        audio.play();
+      }
+
+    }
+  }
+</script>
+
+
+<div class="betternet-wrapper"></div><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="https://vars.hotjar.com/box-dfc01efbdc94bb0936d9a35a502b0b64.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe></body></html>
